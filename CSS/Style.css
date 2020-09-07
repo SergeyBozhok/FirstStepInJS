@@ -1,0 +1,61 @@
+body {
+   background-color:  #1E413B;
+}
+
+#empty_block {
+   margin-top: 85px;
+}
+
+#header { 
+   width: 200px; /* Ширина колонок */
+   padding: 0px; /* Поля вокруг текста */
+   margin-left: 70px; /* Отступ слева */
+   margin-top: 0px; /* Отступ сверху */
+   float: left; /* Состыковка колонок по горизонтали */
+   border: 1px solid black; /* Рамка вокруг слоя */
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Рубленый шрифт */
+   font-weight: bold; /* Жирное начертание текста заголовка */
+   font-size: 260%; /* Размер шрифта */
+   color: #0FE397; /* Цвет текста заголовка */
+}
+
+#vertical_arrow {
+   right: 40px;
+   width: 50px;
+   float: left;    
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+}
+
+#feedback, #recearch {
+   width: 180px; /* Ширина колонок */
+   padding:0 0 10px 5px; /* Поля вокруг текста */
+   margin-left: 20px; /* Отступ слева */
+   float: left;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Рубленый шрифт */
+   font-size: 80%; /* Размер шрифта */
+   color: #0FE397; /* Цвет текста заголовка */
+   border: 1px solid black; /* Рамка вокруг слоя */
+
+}
+
+#arrow_doun {
+   background-image: url(/img/109611.svg);
+   width: 25px;
+   height: 25px;
+   display: block;
+   fill: #0FE397;
+
+
+}
+
+ /* для колонок */
+#col1, #col2, #col3 { 
+  font-family: "Times New Roman", Times, serif; /* Шрифт с засечками */
+  font-size: 100%; /* Размер шрифта */
+  font-weight: normal; /* Нормальное начертание */
+  color: black; /* Цвет текста */
+} 
